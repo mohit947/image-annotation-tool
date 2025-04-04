@@ -1,3 +1,19 @@
+
+Below are the screenshots attached for the output of the image-annotation-tool.
+Feature:-
+1. User can upload multiple images using upload button present on the screen as well as in header.
+2. After upload all the images are visible in Grid format for selection and on clicking image will open in a modal for commenting.
+3. User can click at any place to add comment and after adding it will get stored in redux and avatar with **Label** User will be generated.
+4. One can reply the comment added at any place which will store in redux with avatar with Label **Replier**.
+5. For each commnent and reply user can perform action like edit and delete which will show success message in a toast.
+6. In the sidebar, user can add reply for any comment and also can edit or delete it accordingly.
+
+<img width="1352" alt="Screenshot 2025-04-04 at 10 41 47" src="https://github.com/user-attachments/assets/e4a24d4a-18ca-4225-827b-e7c56a7cf654" />
+<img width="1352" alt="Screenshot 2025-04-04 at 10 41 38" src="https://github.com/user-attachments/assets/b98e5d26-69bf-484e-8e4b-effccc184b45" />
+<img width="1352" alt="Screenshot 2025-04-04 at 10 41 16" src="https://github.com/user-attachments/assets/f992f6b4-4a66-4f0a-a92b-87bc33929e3f" />
+<img width="1352" alt="Screenshot 2025-04-04 at 10 40 38" src="https://github.com/user-attachments/assets/0199a3c7-c318-407a-a15a-b7e2227bc347" />
+<img width="1352" alt="Screenshot 2025-04-04 at 10 40 03" src="https://github.com/user-attachments/assets/06e3036e-32ae-4e8f-a387-2eb96f69c9db" />
+
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
@@ -25,17 +41,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Below are the screenshots attached for the output of the image-annotation-tool.
-Feature:-
-1. User can upload multiple images using upload button present on the screen as well as in header.
-2. After upload all the images are visible in Grid format for selection and on clicking image will open in a modal for commenting.
-3. User can click at any place to add comment and after adding it will get stored in redux and avatar with **Label** User will be generated.
-4. One can reply the comment added at any place which will store in redux with avatar with Label **Replier**.
-5. For each commnent and reply user can perform action like edit and delete which will show success message in a toast.
-6. In the sidebar, user can add reply for any comment and also can edit or delete it accordingly.
-
-<img width="1352" alt="Screenshot 2025-04-04 at 10 41 47" src="https://github.com/user-attachments/assets/e4a24d4a-18ca-4225-827b-e7c56a7cf654" />
-<img width="1352" alt="Screenshot 2025-04-04 at 10 41 38" src="https://github.com/user-attachments/assets/b98e5d26-69bf-484e-8e4b-effccc184b45" />
-<img width="1352" alt="Screenshot 2025-04-04 at 10 41 16" src="https://github.com/user-attachments/assets/f992f6b4-4a66-4f0a-a92b-87bc33929e3f" />
-<img width="1352" alt="Screenshot 2025-04-04 at 10 40 38" src="https://github.com/user-attachments/assets/0199a3c7-c318-407a-a15a-b7e2227bc347" />
-<img width="1352" alt="Screenshot 2025-04-04 at 10 40 03" src="https://github.com/user-attachments/assets/06e3036e-32ae-4e8f-a387-2eb96f69c9db" />
