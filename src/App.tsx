@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box, Flex } from "@chakra-ui/react";
+import ImageUploader from "./components/ImageUploader";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box background={"rgb(248,248,248)"}>
+      <Header />
+      <Flex>
+        <Sidebar />
+        <Box flex="1">
+          <ImageUploader />
+        </Box>
+      </Flex>
+    </Box>
   );
-}
+};
 
 export default App;
